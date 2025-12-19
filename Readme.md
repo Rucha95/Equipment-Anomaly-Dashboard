@@ -3,6 +3,8 @@
 🔗 **Live Application:**  
 https://equipment-anomaly-dashboard.vercel.app
 
+![ACD468EA-4B0B-4401-896A-6B309AE1D8EF_1_201_a](https://github.com/user-attachments/assets/ae8b4d77-c665-4730-8c69-119c3c5d6562)
+
 ---
 
 ## **Objective**
