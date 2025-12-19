@@ -1,0 +1,77 @@
+.navbar {
+  height: 64px;
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f8fafc;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.25);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #38bdf8;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #475569;
+}
+
+.page-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.nav-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.nav-btn.secondary {
+  background-color: #334155;
+}
+
+.nav-btn.secondary:hover {
+  background-color: #475569;
+}
+
+.user-chip {
+  padding: 6px 12px;
+  background-color: #020617;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #334155;
+}
