@@ -1,60 +1,73 @@
-Equipment Monitoring Dashboard
+# **Equipment Monitoring Dashboard**
 
-Link: equipment-anomaly-dashboard.vercel.app
+🔗 **Live Application:**  
+https://equipment-anomaly-dashboard.vercel.app
 
-Objective: This dashboard is built to visualize and monitor industrial equipment health and safety metrics.
+---
 
-Dataset: The application uses the Industrial Equipment Monitoring Dataset sourced from Kaggle, containing simulated real-time sensor data (temperature, pressure, vibration, humidity) for turbines, compressors, and pumps across multiple locations, along with a binary fault indicator for predictive maintenance and anomaly analysis.
+## **Objective**
 
-Key Features: 
-1.Data Ingestion & Validation
-2.Equipment Monitoring & Analysis
-3.Interactive Visualizations
-4.Data Management
-5.Dashboard-ready KPIs and sectioned layouts
+The **Equipment Monitoring Dashboard** is designed to visualize, analyze, and monitor **industrial equipment health and safety metrics**.  
+It enables early detection of anomalies and supports **predictive maintenance** decisions through intuitive, data-driven visualizations.
 
-Technology Stack:
-Frontend-
+---
 
-React 18
+## **Dataset**
 
-TypeScript
+- **Source:** Industrial Equipment Monitoring Dataset (Kaggle)
+- **Nature:** Simulated real-time sensor data 
+- **Details:** The application uses the Industrial Equipment Monitoring Dataset, containing simulated real-time sensor data (temperature, pressure, vibration, humidity) for turbines, compressors, and pumps across multiple locations, along with a binary fault indicator for predictive maintenance and anomaly analysis.
 
-Vite 
+---
 
-Recharts 
+## **Key Features**
 
-Data Handling-
+- **Data Ingestion & Validation**
+  - CSV-based data loading
+  - Schema-level validation for data integrity
+  - Faulty row filtering and error handling
 
-PapaParse 
+- **Equipment Monitoring & Analysis**
 
-Custom React hooks 
+- **Interactive Visualizations**
 
-Memoized selectors
+- **Data Management**
 
-Tooling-
+- **Dashboard-Ready KPIs & Layout**
 
-ESLint
+---
 
-Setup & Installation:
+## **Technology Stack**
 
-Prerequisites:
+### **Frontend**
+- **React 18**
+- **TypeScript**
+- **Vite**
+- **Recharts**
 
-Node.js ≥ 18
+### **Data Handling**
+- **PapaParse**
+- **Custom React Hooks**
+- **Memoized Selectors**
 
-npm or yarn
+### **Tooling **
+- **ESLint**
 
-Installation Steps:
+---
+
+## **Setup & Installation**
+
+### **Prerequisites**
+- **Node.js:** v18 or higher
+- **Package Manager:** npm or yarn
+
+---
+
+### **Installation Steps**
+
+```bash
 # Install dependencies
 npm install
 
 # Start development server
 npm run dev
-
-
-The application will be available at:
-
-http://localhost:5173
-
-Build for Production
-npm run build
