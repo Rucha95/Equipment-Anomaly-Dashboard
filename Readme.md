@@ -23,9 +23,6 @@ It enables early detection of anomalies and supports **predictive maintenance** 
 ## **Key Features**
 
 - **Data Ingestion & Validation**
-  - CSV-based data loading
-  - Schema-level validation for data integrity
-  - Faulty row filtering and error handling
 
 - **Equipment Monitoring & Analysis**
 
